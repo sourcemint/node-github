@@ -2109,7 +2109,8 @@
                     "validation": "^(tarball|zipball)$",
                     "invalidmsg": "Either tarball or zipball",
                     "description": "Either tarball or zipball"
-                }
+                },
+                "$ref": null
             }
         },
 
