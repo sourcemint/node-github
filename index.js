@@ -656,7 +656,8 @@ var Client = module.exports = function(config) {
             port: port,
             path: path,
             method: method,
-            headers: headers
+            headers: headers,
+            rejectUnauthorized: false
         };
 
         if (this.debug)
